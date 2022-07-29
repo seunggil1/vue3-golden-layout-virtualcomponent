@@ -2,10 +2,12 @@
   "name": "vue3-golden-layout-virtualcomponent",
   "version": "0.1.0",
   "private": true,
+  "main": "./dist/golden-layout.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "release": "vue-cli-service build --target lib --name golden-layout src/main.ts"
   },
   "dependencies": {
     "core-js": "^3.6.5",
