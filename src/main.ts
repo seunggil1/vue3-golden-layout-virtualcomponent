@@ -1,4 +1,4 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import GlMain from './GlMain.vue';
 
-createApp(App).mount('#app')
+createApp(GlMain).mount('#app')
