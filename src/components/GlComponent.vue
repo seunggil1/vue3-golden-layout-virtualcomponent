@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { ref, defineExpose } from "vue";
+import { ref } from "vue";
 
 export default {
     name: "GlComponent",
